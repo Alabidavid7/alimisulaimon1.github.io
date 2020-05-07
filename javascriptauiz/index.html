@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>multiple chioce quiz</title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width= device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatibile" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="quiz-container">
+		<div class="question-number">
+			<h3>Question <span class="question-num-value"></span> of <span class="total-question"></span></h3>
+		</div>
+		<div class="question">
+			
+		</div>
+		
+		<div class="option">
+			<div id="0" class="option1" onclick="check(this)"></div>
+			<div id="1" class="option2 " onclick="check(this)"></div>
+			<div id="2" class="option3 " onclick="check(this)"></div>
+			<div id="3" class="option4" onclick="check(this)"></div>
+		</div>
+		<div class="button">
+			<button type="button" class="btn" onclick="next()">Next</button>
+		</div>
+		<div class="answers-tracker">
+			
+		</div>
+	</div>
+	<div class="quiz-over">
+		<div class="box">
+		  <h1>Good Try!<br>
+			 you got <span class=" correct-answer"></span> out of <span class="total-question2"></span> answers correct! <br>
+			That is <span class="percentage"></span>
+
+		  </h1>
+		<button type="button" onclick="tryAgain()">TryAgain</button>
+	     </div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
