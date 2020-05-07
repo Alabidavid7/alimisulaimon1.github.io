@@ -21,7 +21,7 @@ let score = 0;
 
 const questions = [
 {
-	q: 'What is6 + 10?',
+	q: 'What is 6 + 10?',
 	options: ['16', '17', '20', '15'],
 	answer: 0
 },
@@ -37,12 +37,12 @@ const questions = [
 },
 
 {
-	q: 'What is(3 * 3) + 4?',
+	q: 'What is (3 * 3) + 4?',
 	options: ['10', '15', '12', '13'],
 	answer: 3
 },
 {
-	q: 'In programming what is(5 ^ 5) % 5 ?',
+	q: 'In programming what is (5 ^ 5) % 5 ?',
 	options: ['0', '4', '2', '1'],
 	answer: 0
 },
